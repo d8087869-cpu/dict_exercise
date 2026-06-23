@@ -22,3 +22,14 @@ print('git' in tags)
 point = (10, 20)
 print(point)
 print(point[0], point[1])
+#7
+#point[0]=99
+#tuple cant be change
+#8
+rgb = (255, 128, 0)
+r,g,b =rgb
+print(r,g,b)
+#9
+coords = (1, 2, 3, 2, 1)
+print(coords.count(2))
+print(coords.index(3))
