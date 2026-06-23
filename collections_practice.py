@@ -35,6 +35,28 @@ print(coords.count(2))
 print(coords.index(3))
 #10 
 list = [1, 2, 3]
-set = {1, 2, 3}
+set1 = {1, 2, 3}
 tuple = (1, 2, 3)
-print(list, set, tuple)
+print(list, set1, tuple)
+#list allow duplicates , set=you can remove duplicates ,tuple-no changes
+#part 2 
+a = {1, 2, 3}
+b = {3, 4, 5}
+print(a.issubset(b))
+print(a.issuperset(b))
+#2
+pairs = [(1, 'a'), (2, 'b'), (3, 'c')]
+print(pairs[1])
+print(pairs[1][1])
+#3
+number = [1, 2, 2, 3, 3, 3]
+diffe = set(number)
+print(diffe)
+#4
+print(a.symmetric_difference(b))
+#5
+s = {1, 2, 3}
+s.add((4, 5))
+#list can be change so thir hash also change
+#tuple dont change 
+#set need fixed iteam
