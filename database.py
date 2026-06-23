@@ -3,12 +3,27 @@ agent = {'name':'alpha', 'level': 3, 'active': True}
 print(agent)
 #2 
 print(agent['name'])
-#3 
-if agent['level']:
-    print(agent.get('level'))
-else:
-    print(0)
+#3
+print(agent.get('level'))
+print(agent.get(0))
+
+#4   
 agent['score']=95   
 print(agent)
 agent['level']=5
 print(agent)
+#6
+del agent['active']
+print(agent)
+#7
+print(agent.keys())
+print(agent.values())
+print(agent.items())
+#8
+if 'score' in agent:
+    print(True)
+else:
+    print(False) 
+
+#9 
+   
