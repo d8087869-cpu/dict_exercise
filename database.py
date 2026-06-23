@@ -26,4 +26,12 @@ else:
     print(False) 
 
 #9 
-   
+scores={'Alpha': 80, 'Bravo': 95, 'Charlie': 70}
+high_score = max(scores, key=scores.get)
+print(high_score)
+
+#10 
+new_agent = agent.copy()
+new_agent['level']=770
+print(new_agent)
+
