@@ -1,3 +1,4 @@
+'''
 # 1
 agent = {'name':'alpha', 'level': 3, 'active': True}
 print(agent)
@@ -34,4 +35,8 @@ print(high_score)
 new_agent = agent.copy()
 new_agent['level']=770
 print(new_agent)
-
+'''
+#part2 
+config = {}
+config =config.setdefault('timeout',30)
+print(config)
