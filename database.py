@@ -58,3 +58,17 @@ nested = {'server': {'host': 'localhost', 'port': 8080}}
 print(nested['server']['port'])
 #5 
 #items = ['a', 'b', 'a', 'c', 'b', 'a']
+#self learn
+#1
+#hash map stores data as key value pairs and uses a hash to find where each key’s value is kept
+#we use hashing to quickly locate values without checking every item all the list
+#2 
+#Keys need to be hashable so their hash value stays the same 
+#lists cant be keys because they can be change
+#3
+#looking for something in a list is slow because you need to check each one by one
+#in dict is fast becouse you jump straight to the key
+#1 
+info = {'name': 'david'}
+info.update({'age': 25 , 'addres': 'JLM'})
+print(info)
