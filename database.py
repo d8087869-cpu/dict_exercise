@@ -72,3 +72,7 @@ print(nested['server']['port'])
 info = {'name': 'david'}
 info.update({'age': 25 , 'addres': 'JLM'})
 print(info)
+#2
+homework = [('a', 1), ('b', 2)]
+work = dict(homework)
+print(work)
