@@ -38,5 +38,17 @@ print(new_agent)
 '''
 #part2 
 config = {}
-config =config.setdefault('timeout',30)
+config1 =config.setdefault('timeout',30)
 print(config)
+
+config2 =config.setdefault('timeout',50)
+print(config)
+#2 
+d1 = {'a': 1, 'b': 2}
+d2 = {'b': 3, 'c': 4}
+print(d1 | d2)
+#3 
+data={'x' :10 , 'y':20}
+print(data.pop('x'))
+print(data)
+print(data.pop(''))
