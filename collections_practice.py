@@ -10,3 +10,15 @@ tags.discard('bash')
 print(tags)
 tags.discard('c+')
 print(tags)
+#4 
+a = {1, 2, 3}
+b = {3, 4, 5}
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+#5
+print('git' in tags)
+#6 
+point = (10, 20)
+print(point)
+print(point[0], point[1])
