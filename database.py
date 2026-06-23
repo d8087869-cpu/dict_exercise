@@ -51,4 +51,10 @@ print(d1 | d2)
 data={'x' :10 , 'y':20}
 print(data.pop('x'))
 print(data)
-print(data.pop(''))
+missing=data.pop('z','no key')
+print(missing)
+#4 
+nested = {'server': {'host': 'localhost', 'port': 8080}}
+print(nested['server']['port'])
+#5 
+#items = ['a', 'b', 'a', 'c', 'b', 'a']
